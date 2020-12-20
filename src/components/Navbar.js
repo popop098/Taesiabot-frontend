@@ -43,7 +43,7 @@ function Navbar() {
               justifyContent: 'center',
               height: 350
             }}>
-              <iframe src="https://discord.com/widget?id=768468986539016222&theme=dark" title='IFRAME' width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
+              <iframe src="https://discord.com/widget?id=768468986539016222&theme=dark" title='IFRAME' width="250" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
             </div>
           </ul>
         </nav>
