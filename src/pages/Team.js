@@ -19,7 +19,7 @@ const Members = [
 function Team() {
     return (
         <div className='Team'>
-            <h1 className='Developer'>태시아봇 개발자</h1>
+            <h1 className='Developer'>태시아봇 개발자 </h1>
             <Card.Group itemsPerRow={1} stackable>
                 {Members.map(({ name, avatar, id }) => (
                     <Card href={`https://discord.com/users/${id}`} target='_blank' key={id}>
