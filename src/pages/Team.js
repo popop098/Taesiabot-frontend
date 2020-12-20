@@ -11,7 +11,7 @@ const Members = [
     },
     {
         name: '가위#1111',
-        avatar: 'https://cdn.discordapp.com/avatars/300535826088067072/a_776651fab1a5ffb7cfdb0039a116ef88.gif?size=256',
+        avatar: 'https://cdn.discordapp.com/avatars/300535826088067072/4132cfa20b6ba09f95746940c9735f08.webp?size=1024',
         id: '300535826088067072',
     },
 ]
