@@ -1,7 +1,7 @@
 const commands = [
     {
         header: '알림',
-        description: '모든 명령어에서는 '[]','()'을 제외하여 명령해주세요.'
+        description: '모든 명령어에서는  "[]","()"을 제외하여 명령해주세요.'
     },
     {
         header: 'ㅌ재생 [검색어 or URL]',
