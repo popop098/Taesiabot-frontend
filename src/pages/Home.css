@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+
+.Desc {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.btn-container {
+    display: flex;
+}
+
+.btn-container > a > button {
+    outline: 0;
+    padding: 2px 16px;
+    background-color: #7289da;
+    color: #fff;
+    /*box-shadow: 0 4px 16px rgb(114, 137, 218);*/
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 3px;
+    width: auto;
+    height: 32px;
+    min-width: 60px;
+    min-height: 32px;
+    margin: 0 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    transition: background-color .17s ease,color .17s ease;
+}
+
+
+.btn-container > a > button > div {
+    /*font-family: Whitney, "Apple SD Gothic Neo", NanumBarunGothic, "맑은 고딕", "Malgun Gothic", Gulim, 굴림, Dotum, 돋움, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    margin: 0 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.btn-container > a > button:focus {
+    outline: 0;
+}
+
+.btn-container > a > button:hover {
+    background-color: #677bc4;
+}
+
+.home { 
+    background-color: #2A0A29;
+    flex-direction: column;
+}
+
+.btn-container > a > button, .Img {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.Img {
+    width: 256px;
+    height: 256px;
+}
+
+@media (max-width: 700px) {
+    .Img {
+        width: 200px;
+        height: 200px;
+    }
+}

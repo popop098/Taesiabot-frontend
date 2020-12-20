@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+.Developer {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.Img {
+    border-radius: 60%;
+}
+
+.Team {
+    background-color: #2A0A29;
+}
