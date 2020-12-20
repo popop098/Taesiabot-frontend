@@ -21,6 +21,13 @@ function Home() {
             <div>명령어</div>
           </button>
         </Link>
+        <Link to={{
+          pathname: 'https://taesia.vercel.app/'
+        }} target='_blank'>
+          <button>
+            <div>공식웹</div>
+          </button>
+        </Link>
       </div>
     </div>
   );
