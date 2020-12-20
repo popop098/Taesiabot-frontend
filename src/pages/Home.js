@@ -10,7 +10,7 @@ function Home() {
       <h4 className='Desc'>태시아봇은 서버관리와 뮤직, 웹검색,<br /> 자동자가진단등 유용한기능들을<br /> 가지고있는 다기능 봇입니다.</h4>
       <div className='btn-container'>
         <Link to={{
-          pathname: 'https://discord.com/oauth2/authorize?client_id=775542914117795860&permissions=8&scope=bot'
+          pathname: 'https://discord.com/api/oauth2/authorize?client_id=728820788278329424&permissions=8&scope=bot'
         }} target='_blank'>
           <button>
             <div>초대하기</div>
