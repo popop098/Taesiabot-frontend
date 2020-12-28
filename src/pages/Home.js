@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <body>
-      <!-- Channel Plugin Scripts -->
       <script>
         (function() {
           var w = window;
@@ -47,7 +46,6 @@ function Home() {
           "pluginKey": "dddccf59-a91b-493a-9e29-0aa16e96e800"
         });
       </script>
-      <!-- End Channel Plugin -->
     </body>
     <div className='home' onDragStart={event => event.preventDefault()}>
       <img src={Teasia} className='Img' alt='kaibot'></img>
